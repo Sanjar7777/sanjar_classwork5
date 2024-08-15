@@ -1,0 +1,77 @@
+.container {
+    margin-top: 200px;
+    width: 80%;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    width: 45%;
+    margin: auto;
+    position: center;
+}
+
+.images {
+    position: absolute;
+    height: 600px;
+    width: 150px;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px;
+    background-position: center;
+    position: relative;
+    transition: 0.3s ease-in;
+}
+
+.img1 {
+    background-image: url(./images/CR7.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(./images/photo_5269386330993977175_y.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(./images/CR7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    background-image: url(./images/photo_5269386330993977238_y.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.images:hover {
+    cursor: pointer;
+    width: 300px;
+}
+
+.img2:hover {
+    background-image: url(./images/portugal\ chempion.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3:hover {
+    background-image: url(./images/photo_5269386330993977183_y.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4:hover {
+    background-image: url(./images/photo_5269386330993977177_y.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img1:hover {
+    background-image: url(./images/portugal\ white.jpeg);
+    background-size: cover;
+    background-position: center;
+}
